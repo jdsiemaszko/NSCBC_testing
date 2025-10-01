@@ -39,7 +39,7 @@ MU_REF = 1.6e-5
 #x0 = NSCBC_LaminarInflow VELOCITY_COMPONENTS 1 0 0 RELAX 0.6 FILE ./BC/NSCBC_inlet_cont.xml WAVE_CORRECTION
 #x0 = NSCBC_LaminarInflow VELOCITY_COMPONENTS 1 0 0 RELAX 0.6
 
-x0 = NSCBC_LaminarInflow VELOCITY_COMPONENTS 1 0 0 RELAX 0.6 FILE ./BC/NSCBC_inlet_noprofile.xml
+x0 = NSCBC_LaminarInflow RELAX 0.6 FILE ./BC/NSCBC_inlet_noprofile.xml
 
 x1 = NSCBC_PressureOutlet 101325.0 RELAX 0.6 FILE ./BC/NSCBC_outlet_cont.xml WAVE_CORRECTION
 #x1 = NSCBC_PressureOutlet 101325.0 RELAX 0.6
