@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<BCFile Type="NSCBC" Version="0.1">
+<Waves>
+<Wave Name="AcousticWave" TimeEvolutionFile="./BC/PRBS_100_10000_S0_0.00200000.U">
+</Wave>
+</Waves>
+</BCFile>
